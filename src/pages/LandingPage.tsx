@@ -1,7 +1,7 @@
 // src/pages/index.tsx
 import React, { useState } from "react";
 import LandingPageTemplate from "../components/templates/LandingPageTemplate";
-import FileUploadArea from "../components/molecules/FileUploadArea";
+import FileUploadForm from "../components/molecules/FileUploadForm";
 import Button from "../components/atoms/Button";
 
 const Home: React.FC = () => {
@@ -26,7 +26,7 @@ const Home: React.FC = () => {
         Compress JPG with the best quality and compression. Reduce the filesize
         of many JPG images at once online.
       </p>
-      <FileUploadArea onFileChange={handleFileChange} />
+      <FileUploadForm onFileChange={handleFileChange} />
       <Button onClick={handleCompress} className="mt-4">
         Compress Images
       </Button>

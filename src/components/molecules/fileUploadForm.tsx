@@ -1,6 +1,6 @@
 // src/components/molecules/FileUploadArea.tsx
 import React from "react";
-import Input from "../atoms/input";
+import Input from "../atoms/Input";
 
 interface FileUploadAreaProps {
   onFileChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
